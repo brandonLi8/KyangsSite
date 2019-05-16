@@ -1,0 +1,12 @@
+[submodule "Sherpa"]
+	path = Sherpa
+	url = https://github.com/brandonLi8/Sherpa
+[submodule "ExternalModules/Inview"]
+	path = ExternalModules/Inview
+	url = https://github.com/protonet/jquery.inview.git
+[submodule "ExternalModules/Parallax"]
+	path = ExternalModules/Parallax
+	url = https://github.com/dixonandmoe/rellax.git
+[submodule "ExternalModules/Masonry"]
+	path = ExternalModules/Masonry
+	url = https://github.com/desandro/masonry.git

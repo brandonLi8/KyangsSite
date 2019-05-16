@@ -1,0 +1,63 @@
+/* the loader node itself */
+#loader {
+  background-image: radial-gradient(
+    circle, #efefef, #dddddd, #bfbfbf, #ababab, #999
+  );
+  /* all the way accross */
+  width: 100%;
+  min-height: 250px;
+  /* windows height */
+  height: 100%;
+  /* fixed */
+  position: fixed;
+  /* display above */
+  z-index: 100;
+  /* flex it from top to bottom */
+  display: flex;
+  outline: 1px solid #26262A;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#loader-counter {
+  font-family: Montserrat, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 80px;
+  font-weight: 700;
+  /* borderBottom: 3px solid black; */
+  width: 200px;
+  text-align: center;
+  opacity: 0;
+}
+
+
+#greeter {
+  font-family: Montserrat, sans-serif;
+  font-weight: 200;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  opacity: 0;
+}
+
+#greeter #letter {
+  display: inline-block;
+  line-height: 1em;
+  opacity: 0;
+  transform: translateX( 40px );
+}
+
+/* the icon (logo) */
+#loader-image {
+  opacity: 0;
+  width: 40px;
+  /* above the cover */
+  z-index: 13;
+  /* center it */
+  align-self: center;
+  vertical-align: center;
+  transform: translateY( -200% );
+}
+

@@ -1,0 +1,224 @@
+/**
+ * KevinYangsWebsite
+ * Main.css
+ * 
+ * @author Brandon Li <brandon.li820@icloud.com>
+ * Created on 4/19/19
+ * Copyright © 2019 Brandon Li. All rights reserved.
+ *
+ * ##Description
+ * Style the main elements.
+ */
+
+
+body {
+  /* remove scrolling in the X direction */
+  max-width: 100%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  /* set the color ( behind page ) */
+  background: #F7F7F7;
+  overflow-x: hidden;
+}
+
+/* style the html node */
+html {
+  /* remove scrolling in the X-direction */
+  max-width: 100%;
+  /* max height; no padding/margin */
+  padding: 0;
+  margin: 0;
+  /* White background for the page */
+  background: #BBB;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  font-family: 'Open Sans', sans-serif;
+  height: 1600px;
+}
+
+section {
+  position: relative;
+  overflow: hidden;
+}
+/* all headers */
+h1 h3 h2 {
+  text-align: center;
+  align-self: center;
+  z-index: 4;
+}
+
+/* super large text */
+h1 {
+  font-size: 75px;
+  font-weight: 700;
+  font-family: Montserrat;
+  letter-spacing: 20px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  margin: 0;
+}
+
+h2 {
+  font-size: 32px;
+  color: #111;
+  font-weight: 700;
+  border: 8px solid #111;
+  padding: 15px;
+  font-family: Montserrat;
+  letter-spacing: 20px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  margin: 0;
+  z-index: 2;
+  opacity: 0;
+  max-width: 100%;
+}
+
+/* small label */
+h3 {
+  font-family: 'Montserrat';
+  -webkit-font-smoothing: antialiased;
+  font-size: 25px;
+  letter-spacing: 0em;
+  align-self: center;
+  line-height: 1.5em;
+  font-weight: 100;
+}
+
+/* button theme 1 */
+.button {
+  font-family: 'Montserrat';
+  -webkit-font-smoothing: antialiased;
+  font-size: 22px;
+  letter-spacing: 0em;
+  align-self: center;
+  line-height: 1.5em;
+  font-weight: 100;
+  border-left: 2px solid #111;
+  border-right: 2px solid #111;
+  padding: 5px 20px;
+  width: 150px;
+  text-align: center;
+  z-index: 3;
+  cursor: pointer;
+  color: #222;
+  text-decoration: none;
+}
+
+p {
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #1c1c1c;
+  box-sizing: border-box;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  text-align: center;
+  margin: 0 auto;
+  display:inline-block;
+  z-index: 3;
+   -webkit-font-smoothing: antialiased;
+}
+
+.parallax-letter {
+  position: absolute;
+  font-size: 300px;
+  color: #CCC;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  z-index: 0;
+}
+
+@media only screen and ( max-width: 850px ) {
+  .button {
+    font-size: 21px;
+    width: 140px;
+  }
+
+  p {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 25px;
+  }
+  h2 {
+    font-size: 29px;
+    font-weight: 700;
+    border: 7px solid #111;
+    padding: 13px;
+    letter-spacing: 17px;
+  }
+
+}
+@media only screen and ( max-width: 750px ) {
+  .parallax-letter {
+    font-size: 200px;
+  }
+  p {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 25px;
+  }
+  h2 {
+    font-size: 27px;
+    font-weight: 700;
+    border: 7px solid #111;
+    padding: 13px;
+    letter-spacing: 17px;
+  }
+}
+@media only screen and ( max-width: 582px ) {
+  .button {
+    font-size: 20px;
+    width: 120px;
+  }
+  p {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+  h2 {
+    font-size: 25px;
+    font-weight: 700;
+    border: 6px solid #111;
+    padding: 12px;
+    letter-spacing: 15px;
+  }
+}
+
+@media only screen and ( max-width: 430px ) {
+  .button {
+    font-size: 17px;
+    width: 100px;
+  }
+  .parallax-letter {
+    font-size: 130px;
+  }
+  p {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+  h2 {
+    font-size: 23px;
+    font-weight: 700;
+    border: 5px solid #111;
+    padding: 11px;
+    letter-spacing: 13px;
+  }
+}
+
+@media only screen and ( max-width: 390px ) {
+  .button {
+    font-size: 14px;
+    width: 80px;
+  }
+  h2 {
+    font-size: 21px;
+    font-weight: 400;
+  }
+}

@@ -17,7 +17,7 @@ My Personal Website
 ### Quick Start
 (1) Clone the repo and its dependencies
 ```
-https://github.com/brandonLi8/kevinYangsWebsite.git
+git clone https://github.com/brandonLi8/KyangsSite.git
 ```
 (2) Start an http-server
 
